@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Smashing Magazine --- For Web</title>
+
+		<link rel="stylesheet" href="./style/css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<header id="header">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__list--item">
+						<img
+							src="./style/image/logo--full.svg"
+							alt="logo"
+							class="nav__img"
+						/>
+					</li>
+					<li class="nav__list--item"><a href="#">Articles</a></li>
+					<li class="nav__list--item"><a href="#">Guides</a></li>
+					<li class="nav__list--item"><a href="#">Books</a></li>
+					<li class="nav__list--item"><a href="#">Workshops</a></li>
+					<li class="nav__list--item"><a href="#">Membership</a></li>
+					<li class="nav__list--item active">
+						<a href="#">More</a> <i class="fas fa-cat"></i>
+					</li>
+					<li class="nav__list--item">
+						<div class="nav__form">
+							<label for="text"></label>
+							<i class="fas fa-search nav__form--icon"></i>
+							<input
+								type="text"
+								class="nav__form--text"
+								placeholder="Search articles..."
+							/>
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+			<nav class="nav__footer">
+				<ul class="nav__list">
+					<li class="nav__list--item"><a href="">Accessibility</a></li>
+					<li class="nav__list--item"><a href="">CSS</a></li>
+					<li class="nav__list--item"><a href="">Javascript</a></li>
+					<li class="nav__list--item"><a href="">React</a></li>
+					<li class="nav__list--item"><a href="">Vue</a></li>
+					<li class="nav__list--item"><a href="">Angular</a></li>
+					<li class="nav__list--item"><a href="">UX</a></li>
+					<li class="nav__list--item"><a href="">UI</a></li>
+					<li class="nav__list--item"><a href="">Design</a></li>
+					<li class="nav__list--item"><a href="">Figma</a></li>
+					<li class="nav__list--item"><a href="">Wallpaper</a></li>
+					<li class="nav__list--item"><a href="">Semantic</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="header">
+				<div class="header__first">
+					<img
+						src="./style/image/avatar1.jfif"
+						alt="avatar"
+						class="header__first--image"
+					/>
+					<div class="header__first--description">
+						<h3 class="author">Barry Pollard</h3>
+						<h2 class="title">
+							An In-Depth Guide To Measuring Core Web Vitals
+						</h2>
+						<p class="publish">
+							apr 19, 2021 in
+							<a href="#">Performance,</a>
+							<a href="#">Core Web Vitals,</a>
+							<a href="#">Guides</a>
+						</p>
+					</div>
+
+					<div class="header__first--footer">
+						<p class="details">
+							How are Core Web Vitals measured? How do you know your fixes have
+							had the desired effect and when will you see the results in Google
+							Search Console? Let’s figure it out.
+						</p>
+						<a href="#" class="forward"
+							>Continue Reading <i class="fas fa-arrow-right"></i
+						></a>
+					</div>
+				</div>
+
+				<div class="header__second">
+					<img
+						src="./style/image/avatar2.jfif"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+					</div>
+				</div>
+
+				<div class="header__third">
+					<img
+						src="./style/image/avatar3.jfif"
+						alt=""
+						class="header__third--image"
+					/>
+					<div class="header__third--description">
+						<h3 class="author">
+							Stephen Roe /
+							<span>apr 15, 2021 in Clients, Business, Income</span>
+						</h3>
+						<h2 class="title">How To Get Web Design Clients Fast (Part 2)</h2>
+					</div>
+				</div>
+
+				<div class="header__fourth">
+					<img src="./style/image/cat-in-the-chair.svg" alt="cat" />
+					<div class="box">
+						<button class="fourth__btn">Email Newsletter</button>
+						<h2 class="fourth__title">
+							Useful front-end & UX tips, delivered once a week.
+						</h2>
+						<p class="fourth__details">
+							With tools to help you get your work done better. Subscribe and
+							get Vitaly’s Smart Interface Design Checklists PDF — in your
+							inbox. 🎁
+						</p>
+						<div class="fourth__form">
+							<input
+								type="text"
+								class="fourth__form--text"
+								placeholder="Your email"
+							/>
+							<button class="fourth__form--btn">MEOW!</button>
+						</div>
+						<p class="fourth__subdetails">
+							On front-end & UX. Trusted by 190.000 folks.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="clearfix"></section>
+
+			<section class="contentBox">
+				<div class="contentBox__box1">
+					<pre class="subTitle">A SMASHING GUIDE TO</pre>
+					<h2 class="mainTitle">Accessible Front-End Components</h2>
+					<p class="description">
+						Reliable accessible UI components: :focus styles, content sliders,
+						dark mode, date pickers, navigation, modals, radio buttons, “skip”
+						links, SVGs, tabs, tables, toggles and tooltips.
+					</p>
+					<button class="btn">Explore Accessible Components</button>
+				</div>
+				<div class="contentBox__box2">
+					<pre class="subTitle">A SMASHING GUIDE TO</pre>
+					<h2 class="mainTitle">CSS Generators & Tools</h2>
+					<p class="description">
+						Useful CSS tools for animations, border-radius, CSS shadows,
+						cubic-bezier curves, easing gradients, filters, placeholders, CSS
+						Grid, overlays, color shades, type scales and interactive CSS
+						doodles.
+					</p>
+					<button class="btn">Explore CSS tool</button>
+				</div>
+				<div class="contentBox__box3">
+					<pre class="subTitle">A SMASHING GUIDE TO</pre>
+					<h2 class="mainTitle">Front-End Performance 2021</h2>
+					<p class="description">
+						Core Web Vitals, CrUX, Lighthouse, performance budgets, CSS &
+						JavaScript performance, assets optimizations, build optimizations,
+						delivery optimizations, HTTP2, HTTP3 and a free PDF checklist.
+					</p>
+					<button class="btn">Explore Web Performance</button>
+				</div>
+				<a href="#">see all guide <i class="fas fa-arrow-right"></i></a>
+			</section>
+
+			<section class="clearfix"></section>
+
+			<section class="contentDescription">
+				<div class="contentDescription__box1">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box2">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box3">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box4">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box5">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box6">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box7">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<div class="contentDescription__box8">
+					<img
+						src="./style/image/user.svg"
+						alt=""
+						class="header__second--image"
+					/>
+					<div class="header__second--description">
+						<h3 class="author">
+							Emma Bostian /
+							<span> apr 16, 2021 in Skills, Career, Productivity</span>
+						</h3>
+						<h2 class="title">
+							Seven Mistakes To Avoid In Your Technical Interviews
+						</h2>
+						<p>
+							Selling is key to growing your web design business, but it doesn’t
+							have to be complicated! With clear goals, customer research, and
+							proven closing techniques, anyone can find new clients.
+						</p>
+					</div>
+				</div>
+				<a href="#">see all guide <i class="fas fa-arrow-right"></i></a>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<h3 class="footer__header">BROWSE ALL SMASHING MAGAZINE TOPICS</h3>
+			<div class="footer__article">
+				<ul class="footer__article--list1">
+					<li class="item">Accessibility</li>
+					<li class="item">Android</li>
+					<li class="item">Animation</li>
+					<li class="item">Apps</li>
+					<li class="item">CSS</li>
+					<li class="item">Design</li>
+					<li class="item">Design Patterns</li>
+					<li class="item">Design Systems</li>
+					<li class="item">E-Commerce</li>
+					<li class="item">Freebies</li>
+				</ul>
+				<ul class="footer__article--list2">
+					<li class="item">Graphics</li>
+					<li class="item">HTML</li>
+					<li class="item">Illustrator</li>
+					<li class="item">iOS</li>
+					<li class="item">Javascript</li>
+					<li class="item">Mobile</li>
+					<li class="item">Pattern Libraries</li>
+					<li class="item">Performance</li>
+					<li class="item">Photoshop</li>
+				</ul>
+				<ul class="footer__article--list3">
+					<li class="item">Plugins</li>
+					<li class="item">React</li>
+					<li class="item">Responsive Design</li>
+					<li class="item">Service Workers</li>
+					<li class="item">Sketch</li>
+					<li class="item">Typography</li>
+					<li class="item">UI</li>
+					<li class="item">Usability</li>
+					<li class="item">User Experience</li>
+				</ul>
+				<ul class="footer__article--list4">
+					<li class="item">Wallpapers</li>
+					<li class="item">Web Design</li>
+					<li class="item">WordPress</li>
+					<li class="item">Workflow</li>
+				</ul>
+			</div>
+			<p class="footer__subArticle">
+				With a commitment to quality content for the design community. Founded
+				by Vitaly Friedman and Sven Lennartz. 2006–2021. Smashing is proudly
+				running on Netlify. Fonts by Latinotype.
+			</p>
+			<div class="footer__contact">
+				<ul class="footer__contact--list1">
+					<li class="item">✎ Write for us</li>
+					<li class="item">Contact us</li>
+					<li class="item">About us (Impressum)</li>
+					<li class="item">Privacy policy</li>
+				</ul>
+				<ul class="footer__contact--list2">
+					<li class="item">Membership login</li>
+					<li class="item">Delivery times</li>
+					<li class="item">Advertise</li>
+				</ul>
+			</div>
+			<a href="#header" class="footer__btn"
+				><i class="fas fa-chevron-up"></i
+			></a>
+		</footer>
+	</body>
+</html>
